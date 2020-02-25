@@ -274,12 +274,12 @@
         <repository>
             <id>dcm4che</id>
             <name>dcm4che Repository</name>
-            <url>http://www.dcm4che.org/maven2</url>
+            <url>https://www.dcm4che.org/maven2</url>
         </repository>
         <repository>
             <id>org.codehaus.mojo</id>
             <name>Mojo repository</name>
-            <url>http://repo1.maven.org/maven2/org/codehaus/mojo/</url>
+            <url>https://repo1.maven.org/maven2/org/codehaus/mojo/</url>
         </repository>
         <repository>
             <id>jboss-3rd-party-releases</id>

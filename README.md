@@ -69,8 +69,28 @@ GIFT-Cloud Uploader requires:
  * Maven
 
 
+Development in IntelliJ IDEA CE
+-------------------------------
+
+IntelliJ IDEA CE (Community Edition) is a free Java IDE with built-in Maven support.
+You can add a configuration which allows you to run or debug the application from within the IDE:
+
+ * Click `File > Open...` and select the main repository folder
+ * If give the option, choose `New Window`
+ * IntelliJ IDEA should automatically detect the maven `pom.xml` and import the project.
+ * Click `Add Configuration...`
+ * Click `+` and select `Application`
+ * Under `Name:` enter `Run GIFT-Cloud Uploader`
+ * Under `Main class:` enter `uk.ac.ucl.cs.cmic.giftcloud.uploadapp.GiftCloudUploaderApp`
+ * To run the application (without debugging), click the green arrow symbol to the right of `Run GIFT-Cloud Uploader`  
+ * To run the application (with debugging), click the green bug symbol next to the run arrow to the right of `Run GIFT-Cloud Uploader`  
+
+
+
+
+
 Compilation and deployment
------------
+--------------------------
 
  * GIFT-Cloud Uploader can only be compiled using Maven
  * If you wish to customise and compile GIFT-Cloud Uploader, you will need to create a code signing key to sign the application (Java Web Start cannot run unsigned applications)
